@@ -1,0 +1,113 @@
+/* 统一使用Consolas字体 */
+
+body {
+  font-family: Consolas;
+}
+
+/* 头部导航栏进行位置和字体的微调 */
+
+.navbar-brand {
+  padding-left: 2rem!important;
+  font-size: 1.4rem!important;
+}
+
+.navbar-nav {
+  padding-right: 2rem!important;
+}
+
+/* 调整首页图片轮播区域的位置*/
+
+#picture-carousel {
+  margin-top: 4.5rem!important;
+}
+
+#teach-video, #works-display, #some-recommendations, #friendship-link {
+  padding-left: 4rem!important;
+  padding-right: 4rem!important;
+}
+
+.h2 {
+  font-size: 1.5rem!important;
+}
+
+.card p {
+  font-size: .9rem;
+}
+
+.card-footer a:hover {
+  color: #0366d6!important;
+}
+
+/* 首页中学习专区、技术干货、实用工具区域中列表内容的微调 */
+
+.list-group-item p {
+  font-size: .9rem;
+}
+
+/* 友情链接区域内容位置的调整 */
+
+#friendship-link .list-group-item {
+  border: none;
+  padding-top: .4rem!important;
+}
+
+#friendship-link .d-flex {
+  margin-top: -2rem!important;
+}
+
+/* 搜索框的调整 */
+
+.position-absolute {
+  margin-top: .4rem!important;
+  margin-left: 1rem!important;
+}
+
+#teach-video .form {
+  margin-right: 5rem!important;
+}
+
+#works-display .form {
+  margin-right: 5rem!important;
+}
+
+.search-text {
+  padding-left: 2.5rem!important;
+  margin-top: -.3rem!important;
+}
+
+/* 个人中心页面 */
+
+#my-profile {
+  margin-top: 6rem!important;
+  padding-right: 6rem!important;
+  padding-left: 6rem!important;
+}
+
+.p-name {
+  font-size: 1.8rem!important;
+  font-weight: 600;
+}
+
+.p-nickname {
+  font-size: 1.2rem!important;
+  font-weight: 300;
+}
+
+.p-note {
+  font-size: .8rem!important;
+}
+
+.nav-tabs a {
+  color: #6c757d;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #343a40;
+}
+
+/* 页面底部内容微调 */
+
+.jumbotron {
+  padding: .5rem 2rem;
+  margin-bottom: 0;
+}
